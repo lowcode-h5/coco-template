@@ -5,7 +5,7 @@ import upperFirst from 'lodash.upperfirst';
 import camelCase from 'lodash.camelcase';
 
 function getComponent() {
-  const componentConfig = [];
+  const componentConfig = [];  
   const requireConfig = require.context(
     '../components',
     // 是否查询其子目录
